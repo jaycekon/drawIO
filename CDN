@@ -1,1 +1,590 @@
-<mxfile host="app.diagrams.net" modified="2021-08-30T12:02:33.708Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" version="15.0.3" etag="eOguV4EuVndMYm-E7K5u" type="github"><diagram id="3XBTayQ9bla4tUoo9Tty">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-31T16:57:14.017Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="rVyaizkE-x6drt94JZcC" version="15.0.3" type="github">
+  <diagram id="3XBTayQ9bla4tUoo9Tty" name="Page-1">
+    <mxGraphModel dx="1298" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-1" value="广东用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="330" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-2" value="北京用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-5" value="广东电信&lt;br&gt;LDNS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-6" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="350" as="sourcePoint" />
+            <mxPoint x="280" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-7" value="掘金源站&lt;br&gt;p1-juejin.byteimg.com 182.106.174.18&lt;br&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_load_balancing;fillColor=#F58536;gradientColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="390" width="130" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-8" value="" style="endArrow=classic;html=1;strokeColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="380" as="sourcePoint" />
+            <mxPoint x="150" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-10" value="北京联通&lt;br&gt;LDNS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="280" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-11" value="" style="endArrow=classic;html=1;strokeColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="540" as="sourcePoint" />
+            <mxPoint x="150" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-13" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="510" as="sourcePoint" />
+            <mxPoint x="280" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-15" value="p1-juejin.byteimg.com" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-16" value="182.106.174.18" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="390" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-18" value="182.106.174.18" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="560" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-19" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="360" as="sourcePoint" />
+            <mxPoint x="530" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-20" value="" style="endArrow=classic;html=1;strokeColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="430" as="sourcePoint" />
+            <mxPoint x="420" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-21" value="182.106.174.18" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=15;" vertex="1" parent="1">
+          <mxGeometry x="420" y="426.5" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-23" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="500" as="sourcePoint" />
+            <mxPoint x="510" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-24" value="" style="endArrow=classic;html=1;strokeColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="500" as="sourcePoint" />
+            <mxPoint x="430" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-25" value="182.106.174.18" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="425" y="530" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-27" value="p1-juejin.byteimg.com" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="480" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6666;" edge="1" parent="1" source="dVizl-ZmTIbVrgCLk90K-7" target="dVizl-ZmTIbVrgCLk90K-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-30" value="广东用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="850" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-35" value="LDNS" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1090" width="70" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-36" value="网站授权&lt;br&gt;DNS" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1290" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-37" value="DNS&lt;br&gt;调度系统" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1290" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-39" value="" style="endArrow=classic;html=1;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1080" as="sourcePoint" />
+            <mxPoint x="560" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-42" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="345" y="1060" as="sourcePoint" />
+            <mxPoint x="550" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-44" value="1、请求&amp;nbsp;&lt;u&gt;&lt;font color=&quot;#007fff&quot;&gt;p1-juejin.byteimg.com&amp;nbsp;&lt;/font&gt;&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="960" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-48" value="" style="endArrow=classic;html=1;strokeColor=#FF8000;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="1270" as="sourcePoint" />
+            <mxPoint x="270" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-49" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="1260" as="sourcePoint" />
+            <mxPoint x="240" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-50" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;2、获取&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font&gt;&lt;u&gt;&lt;font color=&quot;#007fff&quot;&gt;p1-juejin.byteimg.com&lt;/font&gt;&lt;/u&gt;&lt;u style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp; &lt;/u&gt;&lt;b&gt;&lt;font color=&quot;#330000&quot;&gt;IP&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1190" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-51" value="&lt;span style=&quot;text-align: center ; text-indent: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;3、返回域名 &lt;b&gt;CNAME&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;helvetica&quot; color=&quot;#007fff&quot;&gt;&lt;u&gt;picwebws.pstatp.com.wsglb0.com.&lt;/u&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1250" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-52" value="" style="endArrow=classic;html=1;startArrow=none;startFill=0;endFill=1;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="1190" as="sourcePoint" />
+            <mxPoint x="460" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-53" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="1190" as="sourcePoint" />
+            <mxPoint x="500" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-54" value="&lt;span style=&quot;text-align: center ; text-indent: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;4、返回对应 &lt;b&gt;IP&lt;/b&gt;&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;helvetica&quot; color=&quot;#007fff&quot;&gt;&lt;u&gt;picwebws.pstatp.com.wsglb0.com.&lt;/u&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1190" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-55" value="&lt;span style=&quot;text-align: center ; text-indent: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;5、返回对应 &lt;b&gt;IP&lt;br&gt;&lt;/b&gt;&lt;u&gt;&lt;font color=&quot;#007fff&quot;&gt;58.220.65.17&lt;/font&gt;&lt;/u&gt;&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1010" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-56" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="1420" as="sourcePoint" />
+            <mxPoint x="680" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-58" value="CDN-广东节点&lt;br&gt;&lt;u style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;58.220.65.17&lt;/font&gt;&lt;/u&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1050" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-59" value="CDN-北京节点" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1050" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-60" value="" style="endArrow=classic;html=1;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="910" as="sourcePoint" />
+            <mxPoint x="860" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-61" value="" style="endArrow=none;html=1;strokeColor=#FF8000;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="880" as="sourcePoint" />
+            <mxPoint x="880" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-62" value="6、请求&amp;nbsp;&lt;br&gt;&lt;u&gt;&lt;font color=&quot;#007fff&quot;&gt;p1-juejin.byteimg.com&amp;nbsp;&lt;/font&gt;&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="980" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-64" value="掘金源站&lt;br&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_load_balancing;fillColor=#F58536;gradientColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1308.5" width="130" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-65" value="7、返回内容" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="900" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-66" value="" style="endArrow=classic;html=1;strokeColor=#FF8000;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="1189" as="sourcePoint" />
+            <mxPoint x="970" y="1279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-67" value="" style="endArrow=none;html=1;strokeColor=#FF8000;startArrow=classic;startFill=1;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="1169" as="sourcePoint" />
+            <mxPoint x="1000" y="1269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-69" value="如果CDN MISS&lt;br&gt;请求源站获取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1220" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-70" value="九灵家电脑" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="227.6" y="1650" width="62.400000000000006" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-71" value="路由器" style="image;html=1;image=img/lib/clip_art/networking/Print_Server_Wireless_128x128.png;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-72" value="小明家电脑" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1650" width="62.400000000000006" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-73" value="" style="endArrow=classic;html=1;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1640" as="sourcePoint" />
+            <mxPoint x="330" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-74" value="" style="endArrow=classic;html=1;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1630" as="sourcePoint" />
+            <mxPoint x="440" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-75" value="广东用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-76" value="L1缓存" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1500" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-77" value="L2缓存" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1500" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-78" value="源站" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1500" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-79" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="760" y="1990" as="sourcePoint" />
+            <mxPoint x="760" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-80" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="890" y="1990" as="sourcePoint" />
+            <mxPoint x="889.5" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-81" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1360" y="1990" as="sourcePoint" />
+            <mxPoint x="1360" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-82" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1520" y="1990" as="sourcePoint" />
+            <mxPoint x="1520" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-83" value="" style="endArrow=classic;html=1;strokeColor=#009900;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1630" as="sourcePoint" />
+            <mxPoint x="870" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-84" value="" style="endArrow=classic;html=1;strokeColor=#009900;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1670" as="sourcePoint" />
+            <mxPoint x="870" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-85" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#009900;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1660" as="sourcePoint" />
+            <mxPoint x="870" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-86" value="" style="endArrow=classic;html=1;strokeColor=#0000CC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1690" as="sourcePoint" />
+            <mxPoint x="870" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-87" value="" style="endArrow=classic;html=1;strokeColor=#0000CC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="1710" as="sourcePoint" />
+            <mxPoint x="1340" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-88" value="" style="endArrow=classic;html=1;strokeColor=#009900;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1740" as="sourcePoint" />
+            <mxPoint x="1510" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-89" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#009900;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1770" as="sourcePoint" />
+            <mxPoint x="1510" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-90" value="" style="endArrow=classic;html=1;strokeColor=#009900;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1780" as="sourcePoint" />
+            <mxPoint x="1510" y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-91" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1820" as="sourcePoint" />
+            <mxPoint x="1510" y="1810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-92" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1830" as="sourcePoint" />
+            <mxPoint x="1510" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-93" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1840" as="sourcePoint" />
+            <mxPoint x="1510" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-94" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1850" as="sourcePoint" />
+            <mxPoint x="1510" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-95" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1860" as="sourcePoint" />
+            <mxPoint x="1510" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-97" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1870" as="sourcePoint" />
+            <mxPoint x="1510" y="1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-98" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1880" as="sourcePoint" />
+            <mxPoint x="1510" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-99" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1890" as="sourcePoint" />
+            <mxPoint x="1510" y="1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-100" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1900" as="sourcePoint" />
+            <mxPoint x="1510" y="1890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-101" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1910" as="sourcePoint" />
+            <mxPoint x="1510" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-111" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1960" as="sourcePoint" />
+            <mxPoint x="880" y="1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-112" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1870" as="sourcePoint" />
+            <mxPoint x="880" y="1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-113" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1880" as="sourcePoint" />
+            <mxPoint x="880" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-114" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1890" as="sourcePoint" />
+            <mxPoint x="880" y="1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-115" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1900" as="sourcePoint" />
+            <mxPoint x="880" y="1890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-116" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1910" as="sourcePoint" />
+            <mxPoint x="880" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-117" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1920" as="sourcePoint" />
+            <mxPoint x="880" y="1910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-118" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1930" as="sourcePoint" />
+            <mxPoint x="880" y="1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-119" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1950" as="sourcePoint" />
+            <mxPoint x="880" y="1940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-120" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1940" as="sourcePoint" />
+            <mxPoint x="880" y="1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-121" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="1860" as="sourcePoint" />
+            <mxPoint x="1350" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-122" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="1870" as="sourcePoint" />
+            <mxPoint x="1350" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-123" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="1880" as="sourcePoint" />
+            <mxPoint x="1350" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-124" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="1890" as="sourcePoint" />
+            <mxPoint x="1350" y="1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-125" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="1900" as="sourcePoint" />
+            <mxPoint x="1350" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-126" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="1910" as="sourcePoint" />
+            <mxPoint x="1350" y="1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-127" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="1920" as="sourcePoint" />
+            <mxPoint x="1350" y="1890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-128" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="1930" as="sourcePoint" />
+            <mxPoint x="1350" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-129" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="1940" as="sourcePoint" />
+            <mxPoint x="1350" y="1910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-130" value="TFO/KeepAlive" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1692" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-131" value="RTT=80ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1810" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-132" value="广东用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="520" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-134" value="GLSB&lt;br&gt;（CNAME:List&amp;lt;IP地址&amp;gt;）" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="700" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=90;exitDy=85;exitPerimeter=0;entryX=0.527;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#FF8000;" edge="1" parent="1" source="dVizl-ZmTIbVrgCLk90K-135" target="dVizl-ZmTIbVrgCLk90K-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-141" value="2、域名解析" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dVizl-ZmTIbVrgCLk90K-140">
+          <mxGeometry x="-0.1607" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-135" value="DNS服务器&lt;br&gt;（加速域名：CNAME）" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="520" width="160" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-137" value="" style="endArrow=none;html=1;strokeColor=#FF8000;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="560" as="sourcePoint" />
+            <mxPoint x="1160" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-138" value="1、发送域名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="530" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-142" value="" style="endArrow=none;html=1;strokeColor=#FF8000;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="620" as="sourcePoint" />
+            <mxPoint x="1320" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-144" value="3、返回IP地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="640" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-145" value="CDN-广东节点&lt;br&gt;&lt;u style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;58.220.65.17&lt;/font&gt;&lt;/u&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="780" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-147" value="" style="endArrow=classic;html=1;strokeColor=#FF8000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="630" as="sourcePoint" />
+            <mxPoint x="1080" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-148" value="4、访问缓存服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="690" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-149" value="广东用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1850" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-150" value="L1（广州节点）" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2030" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-151" value="L2（华南节点）" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="220" y="2190" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-152" value="源站" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="230" y="2370" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-153" value="L1（深圳节点）" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2030" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-155" value="" style="endArrow=none;html=1;strokeColor=#FF8000;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="2160" as="sourcePoint" />
+            <mxPoint x="170" y="2110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-156" value="" style="endArrow=none;html=1;strokeColor=#FF8000;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="2170" as="sourcePoint" />
+            <mxPoint x="400" y="2110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-157" value="" style="endArrow=none;html=1;strokeColor=#FF8000;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="2350" as="sourcePoint" />
+            <mxPoint x="290" y="2280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-158" value="" style="endArrow=none;html=1;strokeColor=#FF8000;startArrow=classic;startFill=1;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="284.5" y="2020" as="sourcePoint" />
+            <mxPoint x="284.5" y="1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-160" value="访问数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dVizl-ZmTIbVrgCLk90K-158">
+          <mxGeometry x="0.3143" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-161" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;边缘节点&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;离用户最近节点，能快速响应用户请求，返回缓存信息&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2030" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-162" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;中心节点&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;cantarell&amp;#34; , &amp;#34;noto sans&amp;#34; , sans-serif , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;arial&amp;#34; ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;中心节点包括CDN网管中心和全局负载均衡DNS重定向解析系统，负责整个CDN网络的分发及管理。&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2180" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dVizl-ZmTIbVrgCLk90K-163" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;源站&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;负责数据保存，通过源站可访问到持久化的资源信息。&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2360" width="190" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
